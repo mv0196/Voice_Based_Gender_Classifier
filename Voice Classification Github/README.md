@@ -43,10 +43,6 @@ pip install scikit-learn
 4. click on choose file and got to directory code/audio_files and select an audio for classification
 5. click on predict button
 
-## Contributing
-
-Please read [CONTRIBUTING.md] for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## Built With
 
 * Python 3.x
