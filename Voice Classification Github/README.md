@@ -5,12 +5,12 @@ A Python web based dextop application that selects an existing audio file from t
 ## Getting Started
 
 Before running the project,follow the following steps:<br>
-1.Download " train-clean-100.tar.gz [6.3G]   (training set of 100 hours "clean" speech ) " data from http://www.openslr.org/12/
-2.Extract the data inside the "Gender_Classifier" folder and rename it to "LibriSpeechTrain"                                            
-3.Download " test-clean.tar.gz [346M]   (test set, "clean" speech ) " data from http://www.openslr.org/12/
-4.Extract the data inside the "Gender_Classifier" folder and rename it to "LibriSpeechTest"                                            
-5.Change the path to directories in directory_management.ipynb and run it.                       
-6.Run the Gender_Classifier_NN.ipynb to extract data,preprocess data, train model and store trained model.
+1.Download " train-clean-100.tar.gz [6.3G]   (training set of 100 hours "clean" speech ) " data from http://www.openslr.org/12/<br>
+2.Extract the data inside the "Gender_Classifier" folder and rename it to "LibriSpeechTrain"<br>     
+3.Download " test-clean.tar.gz [346M]   (test set, "clean" speech ) " data from http://www.openslr.org/12/<br>
+4.Extract the data inside the "Gender_Classifier" folder and rename it to "LibriSpeechTest"<br>                         
+5.Change the path to directories in directory_management.ipynb and run it.<br>  
+6.Run the Gender_Classifier_NN.ipynb to extract data,preprocess data, train model and store trained model.<br>
 
 ### Prerequisites
 You will need Python 3.x, Keras.
