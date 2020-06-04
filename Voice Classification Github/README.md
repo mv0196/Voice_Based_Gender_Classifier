@@ -4,7 +4,7 @@ A Python web based dextop application that selects an existing audio file from t
 
 ## Getting Started
 
-Before running the project,follow the following steps:\n
+Before running the project,follow the following steps:<br>
 1.Download " train-clean-100.tar.gz [6.3G]   (training set of 100 hours "clean" speech ) " data from http://www.openslr.org/12/
 2.Extract the data inside the "Gender_Classifier" folder and rename it to "LibriSpeechTrain"                                            
 3.Download " test-clean.tar.gz [346M]   (test set, "clean" speech ) " data from http://www.openslr.org/12/
