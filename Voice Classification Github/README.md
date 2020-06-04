@@ -4,28 +4,22 @@ A Python web based dextop application that selects an existing audio file from t
 
 ## Getting Started
 
-Before running the script,follow the following steps to allow the script to fetch data from your e-mail account:     
-1.Go to  "https://myaccount.google.com/lesssecureapps?utm_source=google-account&utm_medium=web"     
-2.Allow the less secure apps                                            
-3.You are ready to analyse your own e-mails                       
-4.Run the main.py
+Before running the project,follow the following steps:
+1.Download " train-clean-100.tar.gz [6.3G]   (training set of 100 hours "clean" speech ) " data from http://www.openslr.org/12/
+2.Extract the data inside the "Gender_Classifier" folder and rename it to "LibriSpeechTrain"                                            
+3.Download " test-clean.tar.gz [346M]   (test set, "clean" speech ) " data from http://www.openslr.org/12/
+4.Extract the data inside the "Gender_Classifier" folder and rename it to "LibriSpeechTest"                                            
+5.Change the path to directories in directory_management.ipynb and run it.                       
+6.Run the Gender_Classifier_NN.ipynb to extract data,preprocess data, train model and store trained model.
 
 ### Prerequisites
-You will need Python 3.x.
+You will need Python 3.x, Keras.
 Python 3.x can be downloaded from https://www.python.org/downloads/
 
 ### Instaling
-* PyQt5==5.13.0
+* keras
 ```
-pip install PyQt5==5.13.0
-```
-* PyQt5-tools==5.13.0.1.5
-```
-pip install PyQt5-tools==5.13.0.1.5
-```
-* PyQtChart
-```
-pip install PyQtChart
+pip install keras
 ```
 * pandas
 ```
@@ -39,25 +33,19 @@ pip install numpy
 ```
 pip install matplotlib
 ```
-* regex
+* sklearn
 ```
-pip install regex
-```
-* mailbox
-```
-pip install mailbox
-```
-* email
-```
-pip install email
-```
-* poplib
-```
-pip install PyQt5==5.13.0
+pip install scikit-learn
 ```
 
 ## Deployment
-Just rum main.py to run the whole project.
+1. Go to the project sub direcory and open cmd or anaconda prompt where you have installed all the libraries.
+2. Run the commands
+* set FLASK_APP=predict_app.py
+* flask run --host=0.0.0.0
+3. Go to static subdirectory inside the project and run ined_new.html
+4. click on choose file and got to directory code/audio_files and select an audio for classification
+5. click on predict button
 
 ## Contributing
 
@@ -66,8 +54,8 @@ Please read [CONTRIBUTING.md] for details on our code of conduct, and the proces
 ## Built With
 
 * Python 3.x
-* PyQt5.QtDesigner
-* Atom
+* Jupyter notebook
+* FLASK
 
 ## Authors
 
