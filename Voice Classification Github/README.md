@@ -29,10 +29,6 @@ pip install pandas
 ```
 pip install numpy
 ```
-* matplotlib
-```
-pip install matplotlib
-```
 * sklearn
 ```
 pip install scikit-learn
