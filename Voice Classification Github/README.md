@@ -1,6 +1,6 @@
 # Gender Classifier
 
-A Python web based dextop application that selects an existing audio file from the system and classifies it into male or female. It is made using keras and deployed using the FLASK framework.
+A Python web based desktop application that selects an existing audio file from the system and classifies it into male or female. It is made using keras and deployed using the FLASK framework.
 
 ## Getting Started
 
